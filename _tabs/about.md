@@ -5,4 +5,4 @@ order: 1
 ---
 
 
-I'm Benjamin Cookman, Mathematician.
+<!-- About info here please!! -->
