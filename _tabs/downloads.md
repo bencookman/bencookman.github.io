@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
-icon: fa-solid fa-camera-retro
-order: 5
+icon: fa-solid fa-download
+order: 6
 ---
 
 COMING SOON (/◕ヮ◕)/

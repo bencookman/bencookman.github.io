@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
-icon: fa-solid fa-camera-retro
-order: 5
+icon: fa-solid fa-address-book
+order: 2
 ---
 
 COMING SOON (/◕ヮ◕)/

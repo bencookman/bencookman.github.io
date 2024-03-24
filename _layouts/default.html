@@ -1,9 +1,11 @@
 ---
 layout: compress
 ---
+
 <!--
     CHANGES:
     - Removed back to top button
+    - Removed tags and recently updated from panel
 -->
 
 
@@ -40,8 +42,8 @@ layout: compress
           <!-- panel -->
           <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 mb-5 text-muted">
             <div class="access">
-              {% include_cached update-list.html lang=lang %}
-              {% include_cached trending-tags.html lang=lang %}
+              <!-- { include_cached update-list.html lang=lang }
+              { include_cached trending-tags.html lang=lang } -->
             </div>
 
             {% for _include in layout.panel_includes %}
@@ -75,18 +77,18 @@ layout: compress
 
     <div id="mask"></div>
 
-    {% if site.pwa.enabled %}
+    <!-- {% if site.pwa.enabled %}
       {% include_cached notification.html lang=lang %}
-    {% endif %}
+    {% endif %} -->
 
     <!-- JavaScripts -->
 
-    {% include js-selector.html lang=lang %}
+    <!-- {% include js-selector.html lang=lang %}
 
     {% if page.mermaid %}
       {% include mermaid.html %}
     {% endif %}
 
-    {% include_cached search-loader.html lang=lang %}
+    {% include_cached search-loader.html lang=lang %} -->
   </body>
 </html>

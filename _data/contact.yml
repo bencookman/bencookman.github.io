@@ -5,9 +5,9 @@
   noblank: true # open link in current tab
   url: "benlcookman@gmail.com"
 
-# - type: github
-#   icon: "fab fa-github"
-#   url: "https://github.com/bencookman"
+- type: github
+  icon: "fab fa-github"
+  url: "https://github.com/bencookman"
 
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
@@ -17,9 +17,9 @@
   icon: "fa-solid fa-building-columns"
   url: "https://research.manchester.ac.uk/en/persons/benjamin-levi-cookman"
 
-- type: ORCID
-  icon: "fa-brands fa-orcid"
-  url: "https://orcid.org/0009-0004-6964-6835"
+# - type: ORCID
+#   icon: "fa-brands fa-orcid"
+#   url: "https://orcid.org/0009-0004-6964-6835"
 
 # - type: rss
 #   icon: "fas fa-rss"
