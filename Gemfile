@@ -1,8 +1,8 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
+gem 'github-pages', group: :jekyll_plugins
 
-gem "jekyll-theme-chirpy", "~> 6.4", ">= 6.4.2"
+
+### jekyll-theme-chirpy specific gemfile
 
 group :test do
   gem "html-proofer", "~> 4.4"
