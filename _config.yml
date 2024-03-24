@@ -19,8 +19,10 @@ title: Ben Cookman # the main title
 tagline: Ph.D Student at the University of Manchester # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Ben Cookman, Benjamin Levi Cookman, Applied Mathematician, University of Manchester,
-  Combustion, Instabilities, Numerical methods, Programming, Julia, Fortran, C++
+  Ben Cookman, an Applied Mathematician from Northampton. Currently doing a PhD on combustion instabilities at the University of Manchester.
+
+# Ben Cookman, Benjamin Levi Cookman, Applied Mathematician, University of Manchester,
+# Combustion, Instabilities, Numerical methods, Programming, Julia, Fortran, C++
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
