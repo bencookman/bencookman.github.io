@@ -9,38 +9,37 @@ refactor: true
 
 <h1>About Me</h1>
 
-<p>
-  <!--  -- I'm Ben, a Mathematician from [Northampton](https://maps.app.goo.gl/ZQo4n8aG5CiH53bo9), an often disregarded commuter town in the centre of the England. Welcome to my website! I plan on posting as often as I have time for to share some tid-bits from my research alongside general ramblings on things I find interesting. -->
-</p>
-
-<p>Find more about me on my <a href="{{ '/about/' | relative_url }}">About</a> page.</p>
+<p>Find more about me on my <a href="{{ '/about/' | relative_url }}">about</a> page.</p>
 
 <!-- Gallery -->
 
 <h1>Gallery</h1>
 
 <p>
-  A collection of nice images related to my work are available at the
-  <a href="{{ '/gallery/' | relative_url }}">gallery</a>.
+  A collection of nice images related to my work are available at my <a href="{{ '/gallery/' | relative_url }}">gallery</a>. Some of these are shown below:
 </p>
 
+{% assign gallery_style = 'padding:10px;filter:drop-shadow(0em 0em 0.25em black);' %}
+{% assign gallery_style_left = 'float:left;padding:10px;filter:drop-shadow(0em 0em 0.5em black);' %}
+
 <div>
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-1.png" alt="Mandelbrot in a console zoomed out" style="height:150px;float:left;padding:5px;">
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-2.png" alt="Mandelbrot in a console zoomed in" style="height:150px;padding:5px;">
+  {% assign size_consolebrot = '375px' %}
+  <img src="assets/ben-assets/gallery-imgs/consolebrot-1.png" alt="Mandelbrot in a console zoomed out" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
+  <img src="assets/ben-assets/gallery-imgs/consolebrot-2.png" alt="Mandelbrot in a console zoomed in" style="width:{{ size_consolebrot }};{{ gallery_style }}">
   <br>
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-9.png" alt="" style="height:150px;float:left;padding:5px;">
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-11.png" alt="" style="height:150px;padding:5px;">
+  <img src="assets/ben-assets/gallery-imgs/consolebrot-3.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
+  <img src="assets/ben-assets/gallery-imgs/consolebrot-4.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
+  <br>
+  <img src="assets/ben-assets/gallery-imgs/consolebrot-11.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
+  <img src="assets/ben-assets/gallery-imgs/consolebrot-12.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
+  <br>
 </div>
 <br>
+
+
 <!-- inherited from home.html -->
 
 <h1>Posts</h1>
-
-<!--
-
-  Reuse home.html
-
--->
 
 {% assign pinned = site.posts | where: 'pin', 'true' %}
 {% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}

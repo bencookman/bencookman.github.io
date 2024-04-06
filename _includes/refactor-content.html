@@ -1,6 +1,7 @@
 <!--
     CHANGES:
     - No image shimmer
+    - change image shadow for gallery images
 -->
 
 
@@ -160,6 +161,13 @@
 
     <!-- combine -->
     {% assign _img_content = _img_content | append: IMG_TAG | append: _left | append: _right %}
+
+    {% if page.title == 'Gallery' %}
+      {% assign _wrapper_start = _final_src
+        | default: _src
+        | append: '<p> hi </p>'
+      %}
+    {% endif %}
   {% endfor %}
 
   {% if _img_content %}
