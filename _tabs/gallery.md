@@ -55,7 +55,7 @@ This project (which I will write more about later) was a C# implementation of th
 
 
 # Combustion and Flames
-As mentioned [here]({{ '/about/#current-position' | relative_url }}), my PhD studies focus on combustion and the dynamics, stability and shape of flame fronts. In time I'll add photos to this section!
+As mentioned, my PhD studies focus on combustion and the dynamics, stability and shape of flame fronts. In time I'll add photos to this section!
 
 COMING SOON (/◕ヮ◕)/
 
