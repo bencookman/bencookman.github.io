@@ -16,10 +16,14 @@ timezone: Europe/London
 
 title: Ben Cookman # the main title
 
-tagline: Ph.D Student at the University of Manchester # it will display as the sub-title
+tagline: Ph.D Candidate at the University of Manchester # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Ben Cookman, an Applied Mathematician from Northampton. Currently doing a PhD on combustion instabilities at the University of Manchester.
+  Ben Cookman, an Applied Mathematician from Northampton.
+  Currently doing a PhD at the University of Manchester.
+  PhD research involves using high-order, mesh-free methods in a distributed direct
+  numerical simulation (DNS) software to investigate combustion instabilities.
+  Masters project covered parallel time integration using a novel parallel-in-time technique.
 
 # Ben Cookman, Benjamin Levi Cookman, Applied Mathematician, University of Manchester,
 # Combustion, Instabilities, Numerical methods, Programming, Julia, Fortran, C++

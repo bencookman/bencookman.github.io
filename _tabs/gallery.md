@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fa-solid fa-camera-retro
-order: 5
+order: 4
 ---
 
 
@@ -13,6 +13,7 @@ order: 5
 <!-- [Link text]({{ 'relative-url' | relative_url }}) -->
 <!-- [Link text](#heading-name-snail-case) -->
 
+- [Contents](#contents)
 - [Mandelbrot Set in the Command Line](#mandelbrot-set-in-the-command-line)
 - [Combustion and Flames](#combustion-and-flames)
 - [Stability Regions of Time Integrators](#stability-regions-of-time-integrators)
