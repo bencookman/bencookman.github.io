@@ -26,29 +26,29 @@ This project (which I will write more about later) was a C# implementation of th
 
 <div>
   {% assign size_consolebrot = '375px' %}
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-1.png" alt="Mandelbrot in a console zoomed out" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-2.png" alt="Mandelbrot in a console zoomed in" style="width:{{ size_consolebrot }};{{ gallery_style }}">
+  <img src="assets/img/consolebrot/consolebrot-1.png" alt="Mandelbrot in a console zoomed out" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
+  <img src="assets/img/consolebrot/consolebrot-2.png" alt="Mandelbrot in a console zoomed in" style="width:{{ size_consolebrot }};{{ gallery_style }}">
   <br>
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-3.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-4.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
+  <img src="assets/img/consolebrot/consolebrot-3.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
+  <img src="assets/img/consolebrot/consolebrot-4.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
   <br>
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-5.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-6.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
+  <img src="assets/img/consolebrot/consolebrot-5.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
+  <img src="assets/img/consolebrot/consolebrot-6.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
   <br>
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-7.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-8.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
+  <img src="assets/img/consolebrot/consolebrot-7.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
+  <img src="assets/img/consolebrot/consolebrot-8.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
   <br>
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-9.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-10.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
+  <img src="assets/img/consolebrot/consolebrot-9.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
+  <img src="assets/img/consolebrot/consolebrot-10.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
   <br>
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-11.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-12.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
+  <img src="assets/img/consolebrot/consolebrot-11.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
+  <img src="assets/img/consolebrot/consolebrot-12.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
   <br>
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-13.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-14.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
+  <img src="assets/img/consolebrot/consolebrot-13.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
+  <img src="assets/img/consolebrot/consolebrot-14.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
   <br>
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-15.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
-  <img src="assets/ben-assets/gallery-imgs/consolebrot-16.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
+  <img src="assets/img/consolebrot/consolebrot-15.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
+  <img src="assets/img/consolebrot/consolebrot-16.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style }}">
   <br>
 </div>
 <br>
