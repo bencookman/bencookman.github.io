@@ -80,11 +80,11 @@ theme_mode: # [light|dark]
 img_cdn: ""
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "assets/ben-assets/avatar.jpg"
+avatar: "assets/avatar.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: "assets/ben-assets/avatar.jpg" # string, local or CORS resources
+social_preview_image: "assets/avatar.jpg" # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -203,3 +203,9 @@ exclude:
 #   permalinks:
 #     tag: /tags/:name/
 #     category: /categories/:name/
+
+# CHANGED: Changes to Markdown processing
+kramdown:
+  typographic_symbols:
+      ndash: —
+      mdash: —

@@ -9,10 +9,10 @@ refactor: true
 <h1>About Me</h1>
 
 <p>
-    Hiya, I'm Ben, an Applied Mathematician from <a href = "https://maps.app.goo.gl/ZQo4n8aG5CiH53bo9">Northampton</a>. Welcome to my website!
+    Hi --- I'm Ben, an Applied Mathematician from <a href = "https://maps.app.goo.gl/ZQo4n8aG5CiH53bo9">Northampton</a>.
 </p>
 <p>
-    Currently, I'm a PhD student at <a href = "https://research.manchester.ac.uk/en/persons/benjamin-levi-cookman">The University of Manchester</a> in the Department of Mechanical and Aerospace Engineering. But don't be fooled: most of what I'm doing day-to-day involves numerics and fluid simulation. Specifically, at the moment I'm developing boundary conditions for combustion simulation involving non-negligible acoustics.
+    Currently, I'm a PhD student at <a href = "https://research.manchester.ac.uk/en/persons/benjamin-levi-cookman">The University of Manchester</a> in the Department of Mechanical and Aerospace Engineering. Most of what I'm doing day-to-day involves numerics and fluid simulation. At the moment I'm developing acoustic boundary conditions for combustion simulation.
 </p>
 <p>
     Beyond this I've got many interests, including <a href = "https://en.wikipedia.org/wiki/Ultimate_frisbee">ultimate frisbee</a>, reading, sci-fi, fiddling about with computers in various ways (including, for example, making a website) and a lot more.
@@ -22,33 +22,32 @@ refactor: true
 <!-- Gallery -->
 <h1>Gallery</h1>
 
+{% assign gallery_style = 'padding:10px;filter:drop-shadow(0em 0em 0.25em black);' %}
+<!-- {% assign gallery_style_left = 'float:left;padding:10px;filter:drop-shadow(0em 0em 0.5em black);' %} -->
+{% assign size_gallery = '750px' %}
+
 <p>
   A collection of nice images related to my work are available at my <a href="{{ '/gallery/' | relative_url }}">gallery</a>. Some of these are shown below:
 </p>
-
-{% assign gallery_style = 'padding:10px;filter:drop-shadow(0em 0em 0.25em black);' %}
-<!-- {% assign gallery_style_left = 'float:left;padding:10px;filter:drop-shadow(0em 0em 0.5em black);' %} -->
-
-{% assign size_consolebrot = '750px' %}
-<div style="display:flex;justify-content:center;align-items:center;">
-    <img src="assets/ben-assets/gallery-imgs/consolebrot-1.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
-</div>
-<div style="display:flex;justify-content:center;align-items:center;">
-    <img src="assets/ben-assets/gallery-imgs/consolebrot-3.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
-</div>
-<div style="display:flex;justify-content:center;align-items:center;">
-    <img src="assets/ben-assets/gallery-imgs/consolebrot-11.png" alt="" style="width:{{ size_consolebrot }};{{ gallery_style_left }}">
-</div>
 <p>
-    ^ From my consolebrot program.
+    From my consolebrot program:
 </p>
+<div style="display:flex;justify-content:center;align-items:center;">
+    <img src="assets/ben-assets/gallery-imgs/consolebrot-1.png" alt="" style="width:{{ size_gallery }};{{ gallery_style_left }}">
+</div>
+<div style="display:flex;justify-content:center;align-items:center;">
+    <img src="assets/ben-assets/gallery-imgs/consolebrot-3.png" alt="" style="width:{{ size_gallery }};{{ gallery_style_left }}">
+</div>
+<div style="display:flex;justify-content:center;align-items:center;">
+    <img src="assets/ben-assets/gallery-imgs/consolebrot-11.png" alt="" style="width:{{ size_gallery }};{{ gallery_style_left }}">
+</div>
 
 
 <!-- inherited from home.html -->
 <h1>Posts</h1>
 
 <p>
-    I plan on posting occasionally to share some tid-bits from my research alongside general ramblings on things I find interesting. Blog posts I write are uploaded to the <a href="{{ '/posts/' | relative_url }}">posts</a> tab to the left. Since I'm head deep in PhD work, though, posts may well be few and far between! Some examples:
+    I plan on posting occasionally to share some tid-bits from my research alongside general ramblings on things I find interesting. Blog posts I write are uploaded to the <a href="{{ '/posts/' | relative_url }}">posts</a> tab to the left. Since I'm head-deep in PhD work, though, posts may well be few and far between! Some examples:
 </p>
 
 {% assign pinned = site.posts | where: 'pin', 'true' %}
